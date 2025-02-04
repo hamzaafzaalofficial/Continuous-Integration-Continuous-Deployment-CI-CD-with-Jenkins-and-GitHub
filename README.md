@@ -9,4 +9,4 @@ This project showcases setting up a Jenkins server on a Digital Ocean droplet, i
 instance
 
 ###  How to use this repository
-1. **Read the Readme.md and go to cli.bash first and follow it 
+1. **Read the Readme.md and go to cli.bash first and follow it**
