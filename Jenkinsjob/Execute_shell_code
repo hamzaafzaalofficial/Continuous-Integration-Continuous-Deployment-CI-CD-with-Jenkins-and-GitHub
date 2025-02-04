@@ -1,0 +1,13 @@
+#!/bin/bash
+echo "Starting the build process for Oxer website..."
+
+# Ensure workspace is clean
+sudo rm -rf /var/www/html/*
+
+# Copy website files to Apache directory
+sudo cp -r SRC/* /var/www/html/
+
+# Set correct permissions
+sudo chmod -R 755 /var/www/html/
+
+echo "Deployment complete! Website is live."
